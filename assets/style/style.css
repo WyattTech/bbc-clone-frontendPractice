@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body{
+    font-family: 'Arial';
+    width: 100%;
+    
+}
+
+header,
+main,
+footer,
+.title-date-area{  
+    clear:both;
+}
+
+/* Top Styling */
+
+body > header {
+    overflow: auto; /*need this property to stop collaspe */
+    background-color: black;
+    width: 100%;
+    height: 15%;
+    
+ 
+}
+.header-wrapper{
+    width: 100%;
+    height: auto; 
+
+   
+}
+
+.box{
+    width: 25%;
+    float: left;
+    padding-top:20px;
+    padding-left: 10px;
+    margin: 0;
+}
+.box  span{
+    background-color: #fff;
+    padding: 10px;
+    color: black;
+    font-size: 1.55rem;
+    font-size: bolder;
+    text-align: center;
+    margin: auto 1%;
+
+}
+span{
+    font-weight: bold;
+    padding: 2px;
+}
+
+form{
+
+    font-family: 'Arial';
+  }
+  
+   input[type=search] {
+      background-color: rgb(244, 236, 236);
+      margin: 3%;
+      border-radius: 3px;
+      padding: 3px;
+   }
+  select {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      background-color: black;
+      color: white;
+   }
+
+   ul li{
+    display: inline;
+   
+    
+  }
+  
+  a {
+   
+    color: blue;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px; 
+  }
+
+  a:hover{
+    color: lightseagreen;
+  }
+/* Date Area */
+hr{
+    color: rgba(255, 255, 255, 0.099);
+ 
+}
+.title-date-area *{
+    display: inline;
+    overflow: auto;
+    margin: 1px;
+    padding-left: 2px; 
+}
+.sides{
+    
+    width: 100vw;
+    height: auto;    
+}
+
+.welcome{
+    width: 50%;
+   
+}
+.greet{
+    font-weight: bold;
+}
+.time{
+   padding-left:50rem;
+   color: lightslategrey;
+   font-weight:lighter;
+
+}
+
+.greet,
+.time{
+    font-size: 1.50rem;
+}
+
+/* Main Styling */
+
+
+    img {
+   width: 100%;
+   
+}
+
+.hero{
+    height: 40%;
+    width: 100%;
+    
+}
+
+.hero-content {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    float: left;
+  }
+
+  .hero-content > img{
+    object-fit:cover;
+    width: 100%;
+  }
+
+  .quarters {
+    width: 50%;
+    height: 50%;
+    padding: 4px;
+    float: left;
+  }
+  .quarters > img {
+    object-fit: cover;
+    position: relative;
+   
+  }
+
+
+/* Footer */
+.bottom{
+    width: 100%;
+    height: auto;
+  
+}
+section.boxes{
+    height:22.625rem;
+    width: 33.333%;
+    padding: 10px;
+    float: left;
+    
+}
+.boxes > img {
+    object-fit:contain;
+    width: 100%;
+}
+
+h2{
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.20em 0.10em;
+}
+
+h2 + p {
+    padding-bottom: 2.25%;
+}
+
+.line{
+    color: darkred;
+    font-weight: bolder;
+    padding: 3px;
+    font-size: 1.35em;
+}
+
+footer{
+    padding-bottom: 1%;
+}
