@@ -75,6 +75,16 @@ form{
       color: white;
    }
 
+   ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   }
+   li{
+    float: left;
+   }
+
    ul li{
     display: inline;
    
@@ -118,7 +128,7 @@ hr{
 }
 .time{
  
-    
+    padding-left: 50%;
    color: lightslategrey;
    font-weight:lighter;
 
@@ -144,15 +154,24 @@ hr{
 }
 
 .hero-content {
+   
+    right: 2px;
     width: 50%;
     height: 100%;
     padding: 10px;
     float: left;
   }
 
+
   .hero-content > img{
     object-fit:cover;
     width: 100%;
+  }
+
+  .bottom{
+    
+    bottom: 8px;
+    left: 16px;
   }
 
   .quarters {
